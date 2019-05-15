@@ -24,8 +24,9 @@ For Linux/MasOS from the project directory
 ## How these tests could be improved
 This solution is not perfect (obviously).
 Possible improvements:
-- To divide community forum tests and main website tests in two classes (suites)
-- To avoid restarts of the browser after each test
-- To add containers (Docker for instance) to run tests in any environments
-- To improve the reporting system
-- To inject this framework into a CI/CD pipeline.
+- divide community forum tests and main website tests in two classes (suites)
+- add support of other browsers apart from Chrome
+- avoid restarts of the browser after each test
+- add containers (Docker for instance) to run tests in any environments
+- improve the reporting system
+- inject this framework into a CI/CD pipeline.
